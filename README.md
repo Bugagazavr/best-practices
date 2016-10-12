@@ -39,6 +39,7 @@ A note on the language:
 * Use the `.ruby-version` file convention to specify the Ruby version for a project.
 * Use maximum 120 characters in a single line.
 * Use `Class.new(StandardError)` instead of inheritance to declare a single-line error class.
+* Use Dependency Injection pattern instead of specifying a hardcoded behavior for the environment.
 * Prefer to use acronyms as words in names (`XmlHttpRequest`, not `XMLHTTPRequest`).
 * Prefer to log exception with a trace (`logger.error("#{e.inspect}\n#{e.backtrace}")`).
 * Prefer `private` when indicating scope; use `protected` only with comparison methods like `==`.
@@ -50,6 +51,7 @@ A note on the language:
 * Prefer to use the `.` on the second line when continuing a chained method invocation on another line.
 * Don't use spaces after `{` and before `}` for hash literals.
 * Don't use `Timeout`.
+* Don't use reassignment of constant
 
 ### Database
 
